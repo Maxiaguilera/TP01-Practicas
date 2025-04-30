@@ -1,0 +1,36 @@
+# Glosario de Conceptos
+
+<id>: 01
+<seccion>: GIT
+<materias>: Programación I, Taller de Programación
+<sigla|nombre>: Git
+<descripcion>: Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+<link>: https://git-scm.com/
+
+<id>: 02
+<seccion>: GIT
+<materias>: Programación I, Taller de Programación
+<sigla|nombre>: Commit
+<descripcion>: Un commit es un punto en el tiempo en el historial de Git que representa un conjunto de cambios en los archivos del proyecto. Cada commit tiene un hash único que lo identifica.
+<link>: https://git-scm.com/docs/git-commit
+
+<id>: 03
+<seccion>: GIT
+<materias>: Programación I, Taller de Programación
+<sigla|nombre>: Branch
+<descripcion>: Una rama es una línea independiente de desarrollo que permite trabajar en características o correcciones sin afectar la rama principal. Permite el desarrollo paralelo y la experimentación.
+<link>: https://git-scm.com/docs/git-branch
+
+<id>: 04
+<seccion>: GIT
+<materias>: Programación I, Taller de Programación
+<sigla|nombre>: Merge
+<descripcion>: El proceso de combinar los cambios de una rama con otra, típicamente para integrar características desarrolladas en ramas separadas. Puede generar conflictos que deben resolverse manualmente.
+<link>: https://git-scm.com/docs/git-merge
+
+<id>: 05
+<seccion>: GIT
+<materias>: Programación I, Taller de Programación
+<sigla|nombre>: Conflict
+<descripcion>: Situación que ocurre cuando Git no puede resolver automáticamente las diferencias entre dos versiones del mismo archivo. Se marcan en el archivo con marcadores especiales (<<<<<<<, =======, >>>>>>>).
+<link>: https://git-scm.com/docs/git-merge#_how_conflicts_are_presented 

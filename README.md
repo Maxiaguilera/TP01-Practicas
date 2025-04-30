@@ -1,116 +1,81 @@
-# Trabajo Práctico: Gestión de Ramas y Resolución de Conflictos en Git
-
-## Objetivos
-
-- Practicar el flujo de trabajo con ramas en Git
-- Aprender a resolver conflictos de manera efectiva
-- Comprender el proceso de merge y hotfix
-- Trabajar colaborativamente en un proyecto
-
-## Requisitos Previos
-
-- Cuenta en GitHub
-- Pertenecer a la organización CRUI-PP1
-- Acceso al equipo asignado en la organización
+# TP01 - Gestión de Ramas y Resolución de Conflictos en Git
 
 ## Estructura del Proyecto
 
-El proyecto consistirá en un glosario de términos de las materias, donde cada integrante contribuirá con al menos 5 conceptos. La estructura será:
-
 ```
-glosario/
-├── conceptos.txt    # Archivo principal con los conceptos
-└── ejemplos/        # Carpeta para archivos de ejemplo
+TP01/
+├── glosario/
+│   ├── conceptos.txt    # Archivo principal con los conceptos
+│   └── ejemplos/        # Carpeta para archivos de ejemplo
+└── README.md            # Este archivo
 ```
 
-## Flujo de Trabajo
+## Instrucciones
 
-### 1. Configuración Inicial
-
-1. Clonar el repositorio
+1. Clonar este repositorio
 2. Crear una rama `dev` a partir de la rama principal
 3. Cada integrante debe crear su propia rama a partir de `dev` con el formato: `feature/nombre-apellido`
+4. Agregar al menos 5 conceptos al archivo `glosario/conceptos.txt` siguiendo el formato establecido
+5. Realizar los ejercicios de conflictos según las instrucciones
+6. Seguir el proceso de integración especificado
 
-### 2. Desarrollo Individual
+## Formato de Conceptos
 
-Cada integrante debe:
+Cada concepto debe seguir el siguiente formato:
 
-1. Agregar al menos 5 conceptos al archivo `conceptos.txt`
-2. Seguir el formato establecido:
-   ```
-   CONCEPTO
-   Definición: [definición clara y concisa]
-   Ejemplo: [ejemplo práctico]
-   Notas: [información adicional relevante]
-   ```
+```
+<id>:
+<seccion>:
+<materias>:
+<sigla|nombre>:
+<descripcion>:
+<link>:
+```
 
-### 3. Ejercicios de Conflictos
+Donde:
 
-#### Ejercicio 1: Conflictos de Edición Simultánea
+- `id`: Número único secuencial para cada concepto
+- `seccion`: Área temática del concepto (ej: GIT, PROGRAMACION, etc.)
+- `materias`: Materias relacionadas (separadas por comas)
+- `sigla|nombre`: Nombre o sigla del concepto
+- `descripcion`: Explicación detallada del concepto
+- `link`: Enlace a documentación oficial o referencia relevante
 
-1. Dos integrantes modificarán el mismo concepto en diferentes ramas
-2. Ejemplo:
-   - Integrante A modifica la definición de "Commit"
-   - Integrante B modifica la misma definición
-   - Resolver el conflicto manteniendo las mejoras de ambas versiones
+## Ejercicios de Conflictos
 
-#### Ejercicio 2: Conflictos de Orden y Estructura
+### 1. Conflictos de Edición Simultánea
 
-1. Dos integrantes agregarán el mismo concepto en diferentes posiciones
-2. Ejemplo:
-   - Integrante A agrega "Branch" al principio del archivo
-   - Integrante B agrega "Branch" al final
-   - Decidir la posición correcta y resolver el conflicto
+- Dos integrantes modificarán el mismo concepto en diferentes ramas
+- Resolver manteniendo las mejoras de ambas versiones
 
-#### Ejercicio 3: Conflictos de Formato
+### 2. Conflictos de Orden y Estructura
 
-1. Dos integrantes usarán diferentes formatos para el mismo concepto
-2. Ejemplo:
+- Dos integrantes agregarán el mismo concepto con diferentes IDs
+- Decidir el ID correcto y resolver el conflicto
 
-   ```
-   Versión A:
-   COMMIT
-   Definición: Guarda los cambios en el repositorio
+### 3. Conflictos de Formato
 
-   Versión B:
-   Commit
-   - Guarda los cambios
-   - Crea un punto de control
-   ```
+- Dos integrantes usarán diferentes formatos para el mismo concepto
+- Unificar el formato manteniendo la información relevante
 
-   - Unificar el formato manteniendo la información relevante
+### 4. Hotfix
 
-#### Ejercicio 4: Hotfix
+- Identificar un error crítico en la rama main (ej: ID duplicado)
+- Crear una rama `hotfix` desde main
+- Corregir el error
+- Mergear la corrección a main y dev
 
-1. Identificar un error crítico en la rama main
-2. Crear una rama `hotfix` desde main
-3. Corregir el error
-4. Mergear la corrección a main y dev
+### 5. Conflictos de Eliminación vs Modificación
 
-#### Ejercicio 5: Conflictos de Eliminación vs Modificación
+- Un integrante eliminará un concepto
+- Otro integrante modificará el mismo concepto
+- Resolver decidiendo si mantener, eliminar o mover el concepto
 
-1. Un integrante eliminará un concepto
-2. Otro integrante modificará el mismo concepto
-3. Resolver el conflicto decidiendo si:
-   - Mantener el concepto con las modificaciones
-   - Eliminarlo definitivamente
-   - Moverlo a una sección diferente
-
-### 4. Proceso de Integración
+## Proceso de Integración
 
 1. Mergear todas las ramas individuales a `dev`
-
-   - Resolver los conflictos según los ejercicios anteriores
-   - Documentar las decisiones tomadas en la resolución
-
 2. Mergear `dev` a `test`
-
-   - Verificar que no haya conflictos
-   - Asegurar que el formato sea consistente
-
 3. Mergear `test` a `main`
-   - Realizar una revisión final
-   - Asegurar que todos los conceptos estén correctamente formateados
 
 ## Criterios de Evaluación
 
@@ -123,8 +88,8 @@ Cada integrante debe:
 2. **Calidad del Contenido** (20%)
 
    - Definiciones claras y precisas
-   - Ejemplos relevantes
-   - Formato consistente
+   - Enlaces relevantes y actualizados
+   - Formato consistente y correcto
 
 3. **Resolución de Conflictos** (30%)
 
@@ -137,18 +102,10 @@ Cada integrante debe:
    - Commits descriptivos
    - Merge exitosos
 
-## Entrega
-
-1. Todos los cambios deben estar en la rama `main`
-2. El repositorio debe contener:
-   - Archivo `conceptos.txt` con todos los conceptos
-   - Carpeta `ejemplos` con archivos de prueba
-   - Documentación de los conflictos resueltos
-3. Fecha límite: [fecha a definir]
-
-## Notas Adicionales
+## Notas Importantes
 
 - Mantener una comunicación clara entre los integrantes
 - Documentar todos los conflictos resueltos
 - Realizar commits frecuentes y descriptivos
-- Seguir las convenciones de Git establecidas
+- Asegurar que los IDs sean únicos y secuenciales
+- Verificar que todos los campos requeridos estén completos
