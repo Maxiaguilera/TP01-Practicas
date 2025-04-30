@@ -1,0 +1,26 @@
+# Glosario de Conceptos de Git
+
+COMMIT
+Definición: Un commit es un punto en el tiempo en el historial de Git que representa un conjunto de cambios en los archivos del proyecto.
+Ejemplo: git commit -m "Agrega nueva funcionalidad de login"
+Notas: Cada commit tiene un hash único que lo identifica y un mensaje que describe los cambios realizados.
+
+BRANCH
+Definición: Una rama es una línea independiente de desarrollo que permite trabajar en características o correcciones sin afectar la rama principal.
+Ejemplo: git branch feature/login
+Notas: Las ramas permiten el desarrollo paralelo y la experimentación sin riesgo para el código principal.
+
+MERGE
+Definición: El proceso de combinar los cambios de una rama con otra, típicamente para integrar características desarrolladas en ramas separadas.
+Ejemplo: git merge feature/login
+Notas: Puede generar conflictos que deben resolverse manualmente cuando hay cambios en las mismas líneas de código.
+
+CONFLICTO
+Definición: Situación que ocurre cuando Git no puede resolver automáticamente las diferencias entre dos versiones del mismo archivo.
+Ejemplo: Cuando dos desarrolladores modifican la misma línea de código en diferentes ramas.
+Notas: Los conflictos se marcan en el archivo con marcadores especiales (<<<<<<<, =======, >>>>>>>) que indican las diferentes versiones.
+
+HOTFIX
+Definición: Una corrección rápida y crítica que se aplica directamente a la rama principal para resolver un problema urgente.
+Ejemplo: git checkout -b hotfix/login-error main
+Notas: Los hotfixes suelen seguir un proceso especial de revisión y aprobación debido a su naturaleza crítica. 
