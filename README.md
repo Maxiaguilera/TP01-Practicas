@@ -114,14 +114,14 @@ glosario/ejemplos/
 │   ├── ejercicio-1/
 │   │   ├── conflicto.png
 │   │   ├── resolucion.png
-│   │   └── explicacion.md
+│   │   └── explicacion.txt
 │   ├── ejercicio-2/
 │   │   └── ...
 │   └── ...
 └── hotfix/
     ├── error.png
     ├── proceso.png
-    └── explicacion.md
+    └── explicacion.txt
 ```
 
 ### Contenido de la Documentación
