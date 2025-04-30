@@ -67,15 +67,7 @@ Donde:
   - Captura de los IDs en conflicto
   - Explicación del criterio usado para decidir el ID final
 
-### 3. Conflictos de Formato
-
-- Dos integrantes usarán diferentes formatos para el mismo concepto
-- Unificar el formato manteniendo la información relevante
-- **Buena documentación**:
-  - Captura de los diferentes formatos
-  - Explicación del formato elegido y por qué
-
-### 4. Hotfix
+### 3. Hotfix
 
 - Identificar un error crítico en la rama main (ej: ID duplicado)
 - Crear una rama `hotfix` desde main
@@ -86,7 +78,7 @@ Donde:
   - Captura del proceso de hotfix
   - Explicación del impacto del hotfix
 
-### 5. Conflictos de Eliminación vs Modificación
+### 4. Conflictos de Eliminación vs Modificación
 
 - Un integrante eliminará un concepto
 - Otro integrante modificará el mismo concepto
