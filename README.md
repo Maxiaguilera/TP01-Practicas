@@ -24,12 +24,12 @@ TP01/
 Cada concepto debe seguir el siguiente formato:
 
 ```
-<id>:
-<seccion>:
-<materias>:
-<sigla|nombre>:
-<descripcion>:
-<link>:
+id:
+seccion:
+materias:
+sigla|nombre:
+descripcion:
+link:
 ```
 
 Donde:
@@ -47,16 +47,19 @@ Donde:
 
 - Dos integrantes modificarán el mismo concepto en diferentes ramas
 - Resolver manteniendo las mejoras de ambas versiones
+- **Evidencia requerida**: Captura de pantalla del conflicto y su resolución
 
 ### 2. Conflictos de Orden y Estructura
 
 - Dos integrantes agregarán el mismo concepto con diferentes IDs
 - Decidir el ID correcto y resolver el conflicto
+- **Evidencia requerida**: Captura de pantalla del conflicto y su resolución
 
 ### 3. Conflictos de Formato
 
 - Dos integrantes usarán diferentes formatos para el mismo concepto
 - Unificar el formato manteniendo la información relevante
+- **Evidencia requerida**: Captura de pantalla del conflicto y su resolución
 
 ### 4. Hotfix
 
@@ -64,43 +67,42 @@ Donde:
 - Crear una rama `hotfix` desde main
 - Corregir el error
 - Mergear la corrección a main y dev
+- **Evidencia requerida**:
+  - Captura de pantalla del error identificado
+  - Captura de pantalla del proceso de hotfix
+  - Historial de Git que muestre la rama hotfix y su merge
 
 ### 5. Conflictos de Eliminación vs Modificación
 
 - Un integrante eliminará un concepto
 - Otro integrante modificará el mismo concepto
 - Resolver decidiendo si mantener, eliminar o mover el concepto
+- **Evidencia requerida**: Captura de pantalla del conflicto y su resolución
 
 ## Proceso de Integración
 
 1. Mergear todas las ramas individuales a `dev`
+   - **Evidencia en Git**: Historial de commits y merges
 2. Mergear `dev` a `test`
+   - **Evidencia en Git**: Historial de commits y merges
 3. Mergear `test` a `main`
+   - **Evidencia en Git**: Historial de commits y merges
 
-## Criterios de Evaluación
+## Evidencias Requeridas
 
-1. **Completitud** (30%)
+### Capturas de Pantalla
 
-   - Al menos 5 conceptos por integrante
-   - Todos los ejercicios de conflictos realizados
-   - Proceso de integración completo
+- Cada conflicto y su resolución
+- Proceso de hotfix
+- Estado final del archivo de conceptos
 
-2. **Calidad del Contenido** (20%)
+### Historial Git
 
-   - Definiciones claras y precisas
-   - Enlaces relevantes y actualizados
-   - Formato consistente y correcto
-
-3. **Resolución de Conflictos** (30%)
-
-   - Manejo adecuado de los conflictos
-   - Documentación de las decisiones
-   - Mantenimiento de la integridad del contenido
-
-4. **Proceso Git** (20%)
-   - Uso correcto de ramas
-   - Commits descriptivos
-   - Merge exitosos
+- Creación y uso de ramas
+- Commits descriptivos
+- Proceso de merge
+- Resolución de conflictos
+- Hotfix implementado
 
 ## Notas Importantes
 
@@ -109,3 +111,4 @@ Donde:
 - Realizar commits frecuentes y descriptivos
 - Asegurar que los IDs sean únicos y secuenciales
 - Verificar que todos los campos requeridos estén completos
+- Guardar todas las capturas de pantalla en la carpeta `glosario/ejemplos/`
