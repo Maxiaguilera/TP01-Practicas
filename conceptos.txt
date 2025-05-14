@@ -13,3 +13,9 @@ sigla|nombre: salida.
 descripción: información que el programa entrega al usuario tras ejecutar las instrucciones.
 ink: https://bit.ly/3Zg0rdX
 
+id: 8
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos. 
+sigla|nombre: estructura secuencial.
+descripción: Instrucciones que se ejecutan una tras otra en orden.
+link: https://bit.ly/3F72TN2
