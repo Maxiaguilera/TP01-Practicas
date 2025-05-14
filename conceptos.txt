@@ -1,4 +1,12 @@
 
+id: 3
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: tipo de dato
+descripción: Categoría del valor que puede almacenar una variable (entero, texto, booleano, etc.).
+link: http://bit.ly/42VyAC7
+
+
 id: 4
 sección: programación.
 materias: introducción a la programación,bases de datos, sistemas operativos.
