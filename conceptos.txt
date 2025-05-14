@@ -1,4 +1,12 @@
 
+id: 1
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: variable
+descripción: Espacio en memoria que almacena un valor que puede cambiar durante la ejecución.
+link: http://bit.ly/42VyAC7
+
+
 id: 2
 sección: programación.
 materias: introducción a la programación,bases de datos, sistemas operativos.
