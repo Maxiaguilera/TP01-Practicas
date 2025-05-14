@@ -1,4 +1,11 @@
 
+id: 4
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: asignación
+descripción: Proceso de darle un valor a una variable mediante el operador igual (=).
+link: http://bit.ly/42VyAC7
+
 
 id: 5
 sección: programación.
