@@ -1,4 +1,12 @@
 
+id: 2
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: constante
+descripción: Valor fijo que no cambia durante la ejecución del programa.
+link: http://bit.ly/42VyAC7
+
+
 id: 3
 sección: programación.
 materias: introducción a la programación,bases de datos, sistemas operativos.
