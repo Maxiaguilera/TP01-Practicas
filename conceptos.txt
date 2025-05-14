@@ -19,3 +19,10 @@ materias: introducción a la programación,bases de datos, sistemas operativos.
 sigla|nombre: estructura secuencial.
 descripción: Instrucciones que se ejecutan una tras otra en orden.
 link: https://bit.ly/3F72TN2
+
+id: 9
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: estructura condicional.
+descripción: permite que el programa tome decisiones según una condición.
+link: https://bit.ly/439PT1a
