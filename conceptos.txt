@@ -1,4 +1,44 @@
 
+id: 1
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: variable
+descripción: Espacio en memoria que almacena un valor que puede cambiar durante la ejecución.
+link: http://bit.ly/42VyAC7
+
+
+id: 2
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: constante
+descripción: Valor fijo que no cambia durante la ejecución del programa.
+link: http://bit.ly/42VyAC7
+
+
+id: 3
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: tipo de dato
+descripción: Categoría del valor que puede almacenar una variable (entero, texto, booleano, etc.).
+link: http://bit.ly/42VyAC7
+
+
+id: 4
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: asignación
+descripción: Proceso de darle un valor a una variable mediante el operador igual (=).
+link: http://bit.ly/42VyAC7
+
+
+id: 5
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: operadores
+descripción: Símbolos que realizan operaciones aritméticas, lógicas o de comparación.
+link: http://bit.ly/42VyAC7
+
+
 id: 6
 sección: programación.
 materias: introducción a la programación,bases de datos, sistemas operativos. 
