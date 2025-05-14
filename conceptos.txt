@@ -1,6 +1,38 @@
-# Ejemplo de glosario
 
-COMMIT
-Definición: Un commit es un punto en el tiempo en el historial de Git que representa un conjunto de cambios en los archivos del proyecto.
-Ejemplo: git commit -m "Agrega nueva funcionalidad de login"
-Notas: Cada commit tiene un hash único que lo identifica y un mensaje que describe los cambios realizados.
+id: 6
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos. 
+sigla|nombre: entrada.
+descripción: Información proporcionada por el usuario para que el programa la procese.
+link: http://bit.ly/42VyAC7
+
+
+id: 7
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos. 
+sigla|nombre: salida.
+descripción: información que el programa entrega al usuario tras ejecutar las instrucciones.
+ink: https://bit.ly/3Zg0rdX
+
+
+id: 8
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos. 
+sigla|nombre: estructura secuencial.
+descripción: Instrucciones que se ejecutan una tras otra en orden.
+link: https://bit.ly/3F72TN2
+
+
+id: 9
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+sigla|nombre: estructura condicional.
+descripción: permite que el programa tome decisiones según una condición.
+link: https://bit.ly/439PT1a
+
+id: 10
+sección: programación.
+materias: introducción a la programación,bases de datos, sistemas operativos.
+Título: Estructura repetitiva.
+Descripción: Permite repetir un bloque de instrucciones mientras se cumpla una condición.
+link: https://bit.ly/439PT1a
